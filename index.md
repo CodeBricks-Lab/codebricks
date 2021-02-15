@@ -25,7 +25,7 @@ sections:
         class: btn-light
 
   - type: services.html
-    section_id: services
+    section_id: programs
     #background_style: bg-info
     title: Programs by Experts
     services:
