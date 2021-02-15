@@ -82,13 +82,13 @@ sections:
         icon: 6.jpg
         url: '#'
 
-  - type: aside.html
-    section_id: aside
-    title: Free Download at Start Bootstrap!
-    actions:
-      - title: Download Now!
-        url: https://startbootstrap.com/themes/creative/
-        class: btn-light
+#  - type: aside.html
+#    section_id: aside
+#    title: Free Download at Start Bootstrap!
+#    actions:
+#      - title: Download Now!
+#        url: https://startbootstrap.com/themes/creative/
+#        class: btn-light
 
   - type: members.html
     section_id: members
