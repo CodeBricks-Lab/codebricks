@@ -1,10 +1,13 @@
 ---
 layout: home
 header:
-  title: Your Favorite Source of Free Bootstrap Themes
+  title: Learning Computer Science, Robotics and valuable STEM skills such as coding
   text: >
-    Start Bootstrap can help you build better websites using the Bootstrap
-    framework! Just download a theme and start customizing, no strings attached!
+    The popularity of coding in school is growing rapidly following the jobs trend in industry. 
+    Learning how to code at a young age can truly set up your child for a lifetime of success. 
+    Since coding can be gamified, kids at early age can start learning how to code using visual coding interfaces.
+    Programming a Lego robot, with inputs (sensors) and outputs (motors) can give all students 
+    the opportunity to get into coding without having any prior knowledge in programming or robotics.
   action: # action button is optional
     label: Find Out More
     url: '#about'
@@ -15,7 +18,7 @@ sections:
     section_id: about
     background_style: bg-primary
     title: We've got what you need!
-    text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
+    text: CodeBricks provides personalized and quality programs for Computer Science using a variety of trusted tools. Our programs are developed by Robot Artificial Intelligence Experts from University of Auckland.  
     actions:
       - title: Get Started!
         url: '#page-top'
@@ -24,26 +27,26 @@ sections:
   - type: services.html
     section_id: services
     #background_style: bg-info
-    title: At Your Service
+    title: Programs by Experts
     services:
-      - title: Sturdy Templates
-        text: Our templates are updated regularly so they don't break.
+      - title: MineCraft Education
+        text: Learn basic coding concepts playing MineCraft. Get started in blocks or text-based coding with Python
         icon: fa-gem text-info
-        url: https://startbootstrap.com/
-      - title: Ready to Ship
-        text: You can use this theme as is, or you can make changes!
+        url: https://education.minecraft.net/
+      - title: LEGO Bricks and Robotics
+        text: Design and code Robots with LEGO. Kids learn problem solving using a favorite building toy. 
         icon: fa-paper-plane
-      - title: Up to Date
-        text: We update dependencies to keep things fresh.
+      - title: Robotics Engineering
+        text: Using small computers such as Raspberry Pi and Arduino
         icon: fa-laptop-code
-      - title: Made with Love
-        text: You have to make your websites with love these days!
+      - title: Data Science
+        text: Learn how to make decisions using measurable data-driven insights.
         icon: fa-heart
-      - title: Other 1
-        text: Some not-so long text here.
+      - title: Computer Algorithm and Software Design
+        text: Learn how to write beatiful and reusable code. 
         icon: fa-heart
-      - title: Other 2
-        text: Some not-so long text here.
+      - title: Deep Neural Network(DNN) and AI
+        text: Learn the concepts of DNN and how to design and implement your own DNN models to solve real problems.
         icon: fa-heart
 
   - type: portfolio.html
@@ -96,26 +99,6 @@ sections:
         text: Singer and Songwriter
         image: assets/img/members/person1.jpg
         url: '#'
-      - title: Gary D. Stevens
-        text: Bass guitar.
-        image: assets/img/members/person2.jpg
-        url: '#'
-      - title: Devon J. Fletcher
-        text: Lead guitar.
-        image: assets/img/members/person3.jpg
-        url: '#'
-      - title: Todd E. Anderson
-        text: Drums, percussion.
-        image: assets/img/members/person5.jpg
-        url: '#'
-      - title: Daniel T. Riley
-        text: Musician, songwriter, producer.
-        image: assets/img/members/person6.jpg
-        url: '#'
-      - title: Ella P. Walter
-        text: PR.
-        image: assets/img/members/person7.jpg
-        url: '#'
 
   - type: timeline.html
     section_id: timeline
@@ -145,11 +128,11 @@ sections:
       Ready to start your next project with us? Give us a call or send us an email
       and we will get back to you as soon as possible!
     actions:
-    - title: +1 (202) 555-014
+    - title: 0210543333
       icon: fa-phone
     - title: E-Mail
       icon: fa-envelope
-      url: mailto:contact@yourwebsite.com
+      url: mailto:codebricks@gmail.com
     - title: Twitter
       icon: fa-twitter
       icon_type: fab
