@@ -105,7 +105,7 @@ sections:
     background_style: bg-dark text-primary
     last_image: assets/img/timeline-end.png
     actions:
-      - image: assets/img/portfolio/thumbnails/1.jpg
+      - image: assets/img/bot-64.png
         title: >+
           2021
           **Launch CodeBricks**
