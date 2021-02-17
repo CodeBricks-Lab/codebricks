@@ -34,7 +34,7 @@ sections:
         icon: fa-robot
       - title: Robotics
         text: Build robots using sensors and small computers such as Raspberry Pi and Arduino.
-        icon: fa-android
+        icon: fa-cogs
       - title: Data Science
         text: Learn how to make decisions and solve real world problems using measurable data-driven insights.
         icon: fa-chart-bar
