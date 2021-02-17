@@ -94,12 +94,8 @@ sections:
     members:
       - title: Teacher Jay
         text: >-
-          Commiter, Apache Software Foundation
-          Senior Researcher, University of Auckland
-          Ex Senior S/W Engineer, Samsung Electronics
-          Computer Science, Yonsei University
-          AI, Deep Learning, Robotics, Algorithm Expert 
-          Judge, Robot Olympiad 
+          Robot AI Researcher, UoA
+
         image: assets/img/members/person1.jpg
         url: '#'
 
