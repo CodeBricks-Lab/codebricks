@@ -1,13 +1,10 @@
 ---
 layout: home
 header:
-  title: Learning Computer Science, Robotics and valuable STEM skills such as coding
+  title: Learning Computer Science and valuable STEM skills
   text: >
     The popularity of coding in school is growing rapidly following the jobs trend in industry. 
     Learning how to code at a young age can truly set up your child for a lifetime of success. 
-    Since coding can be gamified, kids at early age can start learning how to code using visual coding interfaces.
-    Programming a Lego robot, with inputs (sensors) and outputs (motors) can give all students 
-    the opportunity to get into coding without having any prior knowledge in programming or robotics.
   action: # action button is optional
     label: Find Out More
     url: '#about'
@@ -18,7 +15,7 @@ sections:
     section_id: about
     background_style: bg-primary
     title: We've got what you need!
-    text: CodeBricks provides personalized and quality programs for Computer Science using a variety of trusted tools. Our programs are developed by Robot Artificial Intelligence Experts from University of Auckland.  
+    text: CodeBricks provides personalized and high quality programs for teaching problem solving based on Computer Science. Our programs are developed by Robot AI Reseach Team from University of Auckland.  
     actions:
       - title: Get Started!
         url: '#page-top'
@@ -30,23 +27,23 @@ sections:
     title: Programs by Experts
     services:
       - title: MineCraft Education
-        text: Learn basic coding concepts playing MineCraft. Get started in blocks or text-based coding with Python
+        text: Learn basic coding concepts by playing MineCraft. Get started in blocks or text-based coding with Python.
         icon: fa-gem text-info
         url: https://education.minecraft.net/
       - title: LEGO Bricks and Robotics
-        text: Design and code Robots with LEGO. Kids learn problem solving using a favorite building toy. 
+        text: Design and build Robots with LEGO bricks. Kids learn coding and robot with a favorite building toy. 
         icon: fa-paper-plane
-      - title: Robotics Engineering
-        text: Using small computers such as Raspberry Pi and Arduino
+      - title: Robotics
+        text: Build robots using sensors and small computers such as Raspberry Pi and Arduino.
         icon: fa-laptop-code
       - title: Data Science
-        text: Learn how to make decisions using measurable data-driven insights.
+        text: Learn how to make decisions and solve real world problems using measurable data-driven insights.
         icon: fa-heart
       - title: Computer Algorithm and Software Design
-        text: Learn how to write beatiful and reusable code. 
+        text: Learn how to write efficient and reusable code. 
         icon: fa-heart
-      - title: Deep Neural Network(DNN) and AI
-        text: Learn the concepts of DNN and how to design and implement your own DNN models to solve real problems.
+      - title: Deep Neural Network(DNN)
+        text: Learn the concepts of DNN and how to design and implement your own DNN models.
         icon: fa-heart
 
   - type: portfolio.html
