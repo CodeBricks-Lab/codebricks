@@ -28,23 +28,22 @@ sections:
     services:
       - title: MineCraft Education
         text: Learn basic coding concepts by playing MineCraft. Get started in blocks or text-based coding with Python.
-        # icon: fa-gem text-info
-        icon: img/icon/icons8-lego-256.png
-      - title: LEGO Bricks and Robotics
+        icon: fa-gem text-info
+      - title: LEGO Bricks
         text: Design and build Robots with LEGO bricks. Kids learn coding and robot with a favorite building toy. 
-        icon: fa-paper-plane
+        icon: fa-robot
       - title: Robotics
         text: Build robots using sensors and small computers such as Raspberry Pi and Arduino.
-        icon: fa-laptop-code
+        icon: fa-raspberry-pi
       - title: Data Science
         text: Learn how to make decisions and solve real world problems using measurable data-driven insights.
-        icon: fa-heart
+        icon: fa-chart-bar
       - title: Computer Algorithm and Software Design
         text: Learn how to write efficient and reusable code. 
-        icon: fa-heart
+        icon: fa-laptop-code
       - title: Deep Neural Network(DNN)
         text: Learn the concepts of DNN and how to design and implement your own DNN models.
-        icon: fa-heart
+        icon: fa-brain
 
   - type: portfolio.html
     # this section has always ID 'portfolio'
