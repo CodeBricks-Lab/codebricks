@@ -18,7 +18,7 @@ sections:
     text: CodeBricks provides personalized and high quality programs for teaching problem solving based on Computer Science. Our programs are developed by Robot AI Reseach Team from University of Auckland.  
     actions:
       - title: Get Started!
-        url: '#page-top'
+        url: '#services'
         class: btn-light
 
   - type: services.html
