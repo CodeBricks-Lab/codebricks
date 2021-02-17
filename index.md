@@ -38,11 +38,11 @@ sections:
       - title: Data Science
         text: Learn how to make decisions and solve real world problems using measurable data-driven insights.
         icon: fa-chart-bar
-      - title: Computer Algorithm and Software Design
+      - title: Computer Algorithm, Software Design
         text: Learn how to write efficient and reusable code. 
         icon: fa-laptop-code
-      - title: Deep Neural Network(DNN)
-        text: Learn the concepts of DNN and how to design and implement your own DNN models.
+      - title: Deep Neural Network
+        text: Learn the concepts of Deep Neural Network and how to design and implement your own DNN models.
         icon: fa-brain
 
   - type: portfolio.html
