@@ -127,9 +127,9 @@ sections:
       Ready to have a free trial and level test? Give us a call or send us an email
       and we will get back to you as soon as possible!
     actions:
-    - title: 0210544684
-      icon: fa-phone
-      url: mailto:codebricks.nz@gmail.com
+    # - title: 0210544684
+    #   icon: fa-phone
+    #   url: mailto:codebricks.nz@gmail.com
     - title: codebricks.nz@gmail.com
       icon: fa-envelope
       url: mailto:codebricks.nz@gmail.com
