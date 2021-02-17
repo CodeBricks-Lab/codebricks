@@ -28,8 +28,8 @@ sections:
     services:
       - title: MineCraft Education
         text: Learn basic coding concepts by playing MineCraft. Get started in blocks or text-based coding with Python.
-        icon: fa-gem text-info
-        url: https://education.minecraft.net/
+        # icon: fa-gem text-info
+        icon: img/icon/icons8-lego-256.png
       - title: LEGO Bricks and Robotics
         text: Design and build Robots with LEGO bricks. Kids learn coding and robot with a favorite building toy. 
         icon: fa-paper-plane
