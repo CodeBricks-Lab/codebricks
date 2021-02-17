@@ -13,7 +13,7 @@ sections:
 - type: address.html
   section_id: address
   title: You are welcome!
-  map: https://www.google.co.nz/maps/dir/-36.7078879,174.7435309/22+Deep+Creek+Rd,+Torbay,+Auckland+0630,+New+Zealand/@-36.7079394,174.7414315,17z/data=!3m1!4b1!4m16!1m7!3m6!1s0x6d0d3af7bf63e62d:0xa5435a86dd9ea1dc!2s22+Deep+Creek+Road,+Torbay,+Auckland+0630!3b1!8m2!3d-36.7079113!4d174.7435254!4m7!1m0!1m5!1m1!1s0x6d0d3af7bf63e62d:0xa5435a86dd9ea1dc!2m2!1d174.7435254!2d-36.7079113
+  map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.608898016968!2d174.74143151591542!3d-36.70793507934901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d3af7bf63e62d%3A0xa5435a86dd9ea1dc!2s22%20Deep%20Creek%20Road%2C%20Torbay%2C%20Auckland%200630!5e0!3m2!1sen!2snz!4v1613548530607!5m2!1sen!2snz
   address:
     title: Address
     text: >
