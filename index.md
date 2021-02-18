@@ -88,12 +88,12 @@ sections:
 
   - type: members.html
     section_id: members
-    title: Our Crew!
+    title: Our Teacher!
     background_style: bg-info text-white
     members:
-      - title: Teacher Jay
+      - title: Jay
         text: >-
-          Robot AI Researcher, UoA
+          Robot AI Researcher
 
         image: assets/img/members/person1.jpg
         url: '#'
