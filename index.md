@@ -129,9 +129,9 @@ sections:
     # - title: 0210544684
     #   icon: fa-phone
     #   url: mailto:codebricks.nz@gmail.com
-    - title: codebricks.nz@gmail.com
+    - title: info@codebricks.co.nz
       icon: fa-envelope
-      url: mailto:codebricks.nz@gmail.com
+      url: mailto:info@codebricks.co.nz
     # - title: Twitter
     #   icon: fa-twitter
     #   icon_type: fab
