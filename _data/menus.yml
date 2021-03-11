@@ -15,5 +15,7 @@ header:
   url: /#contacts
 # - title: Links
 #   url: /links
-- title: Test
-  url: /test
+- title: Classroom
+  url: 'https://classroom.google.com/u/0/h'
+  new_window: true
+
