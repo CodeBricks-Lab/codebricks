@@ -21,3 +21,4 @@ exclude:
   - Gemfile.lock
   - build-in-docker.sh
   - README.md
+google_analytics: G-SYN2GVJMEY

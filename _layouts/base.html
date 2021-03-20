@@ -28,6 +28,9 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
 {% seo %}
+{% if site.google_analytics and jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
 </head>
 
 <body id="page-top" class="{% if page.layout == site.landing_template %}landing {% endif %}">
