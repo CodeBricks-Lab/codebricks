@@ -4,18 +4,17 @@ header:
   title: Learning Computer Science and valuable STEM skills
   text: >
     The popularity of coding in school is growing rapidly following the jobs trend in industry. 
-    Learning how to code at a young age can truly set up your child for a lifetime of success. 
+    Learning how to code at a young age can truly set up your child for a lifetime of success.
   action: # action button is optional
     label: Find Out More
     url: '#about'
-
 
 sections:
   - type: call-to-action.html
     section_id: about
     background_style: bg-primary
     title: We've got what you need!
-    text: CodeBricks provides personalized and high quality programs for teaching problem solving based on Computer Science. Our programs are developed by Robot AI Reseach Team from University of Auckland.  
+    text: CodeBricks provides personalized and high quality programs for teaching problem solving based on Computer Science. Our programs are developed by Robot AI Reseach Team from University of Auckland.
     actions:
       - title: Get Started!
         url: '#services'
@@ -30,7 +29,7 @@ sections:
         text: Learn basic coding concepts by playing MineCraft. Get started in blocks or text-based coding with Python.
         icon: fa-gem
       - title: LEGO Bricks
-        text: Design and build Robots with LEGO bricks. Kids learn coding and robot with a favorite building toy. 
+        text: Design and build Robots with LEGO bricks. Kids learn coding and robot with a favorite building toy.
         icon: fa-robot
       - title: Robotics
         text: Build robots using sensors and small computers such as Raspberry Pi and Arduino.
@@ -39,7 +38,7 @@ sections:
         text: Learn how to make decisions and solve real world problems using measurable data-driven insights.
         icon: fa-chart-bar
       - title: Computer Algorithm, Software Design
-        text: Learn how to write efficient and reusable code. 
+        text: Learn how to write efficient and reusable code.
         icon: fa-laptop-code
       - title: Deep Neural Network
         text: Learn the concepts of Deep Neural Network and how to design and implement your own DNN models.
@@ -50,41 +49,62 @@ sections:
     #section_id: portfolio
     #background_style: bg-dark
     projects:
-      - title: Project 1
-        text: This is a very short project description.
-        # the images are located in:
-        # img/portfolio/fullsize
-        # img/portfolio/thumbnails
-        icon: 1.jpg
-        url: '#'
-      - title: Project 2
-        text: This is a very short project description.
-        icon: 2.jpg
-        url: '#'
+      # - title: Project 1
+      #   text: This is a very short project description.
+      #   # the images are located in:
+      #   # img/portfolio/fullsize
+      #   # img/portfolio/thumbnails
+      #   icon: 1.jpg
+      #   url: '#'
+      # - title: Project 2
+      #   text: This is a very short project description.
+      #   icon: 2.jpg
+      # url: '#'
       - title: Project 3
         text: This is a very short project description.
-        icon: 3.jpg
+        icon: plant650.jpg
         url: '#'
       - title: Project 4
         text: This is a very short project description.
-        icon: 4.jpg
+        icon: electronics650.jpg
         url: '#'
       - title: Project 5
         text: This is a very short project description.
-        icon: 5.jpg
+        icon: vr650.jpg
+        url: 'vr'
+      - title: Project 6
+        text: This is a very short project description.
+        icon: ai650.jpg
         url: '#'
       - title: Project 6
         text: This is a very short project description.
-        icon: 6.jpg
+        icon: minecraft650.jpg
+        url: '#'        
+      - title: Project 3
+        text: This is a very short project description.
+        icon: lego650.jpg
         url: '#'
+      - title: Project 4
+        text: This is a very short project description.
+        icon: coding650.jpg
+        url: '#'
+      - title: Project 5
+        text: This is a very short project description.
+        icon: board650.jpg
+        url: '#'
+      - title: Project 5
+        text: This is a very short project description.
+        icon: duckiebot650.jpg
+        url: '#'        
 
-#  - type: aside.html
-#    section_id: aside
-#    title: Free Download at Start Bootstrap!
-#    actions:
-#      - title: Download Now!
-#        url: https://startbootstrap.com/themes/creative/
-#        class: btn-light
+
+  #  - type: aside.html
+  #    section_id: aside
+  #    title: Free Download at Start Bootstrap!
+  #    actions:
+  #      - title: Download Now!
+  #        url: https://startbootstrap.com/themes/creative/
+  #        class: btn-light
 
   - type: members.html
     section_id: members
@@ -126,12 +146,12 @@ sections:
       Ready to have a free trial and level test? Give us a call or send us an email
       and we will get back to you as soon as possible!
     actions:
-    # - title: 
-    #   icon: fa-phone
-    #   url: mailto:codebricks.nz@gmail.com
-    - title: info@codebricks.co.nz
-      icon: fa-envelope
-      url: mailto:info@codebricks.co.nz
+      # - title:
+      #   icon: fa-phone
+      #   url: mailto:codebricks.nz@gmail.com
+      - title: info@codebricks.co.nz
+        icon: fa-envelope
+        url: mailto:info@codebricks.co.nz
     # - title: Twitter
     #   icon: fa-twitter
     #   icon_type: fab
@@ -140,5 +160,4 @@ sections:
     #   icon: fa-facebook
     #   icon_type: fab
     #   url: '#'
-
 ---
