@@ -13,5 +13,9 @@ header:
   url: /#timeline
 - title: Contacts
   url: /#contacts
-- title: Links
-  url: /links
+# - title: Links
+#   url: /links
+- title: Office 365
+  url: 'https://www.office.com/'
+  new_window: true
+
