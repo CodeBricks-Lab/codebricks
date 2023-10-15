@@ -314,7 +314,7 @@ main_menu:
     menu_type: "headonly"
 
   - text: "Blog"
-    url: "/blogs"
+    url: "/blogs/index/"
     menu_type: "headonly"
     # submenu:
     #   - text: "Blog 01"
