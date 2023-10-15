@@ -3,8 +3,7 @@ url: "https://codebricks-lab.github.io/" # the base hostname & protocol for your
 permalink: "/:title"
 
 # Build settings
-# theme: minima
-remote_theme: minima
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-paginate-v2
