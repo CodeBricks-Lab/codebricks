@@ -1,30 +1,30 @@
 ---
-layout: base
+layout: default
 ---
 
-<!-- Header -->
-<header class="masthead pagehead" {% if page.background_image %} style="background-image: {{ page.background_image }}"{% endif %} >
-  <div class="container h-100">
-    <div class="row h-100 align-items-center justify-content-center text-center">
-      <div class="col-lg-10 ">
-        <h1 class="text-uppercase text-white font-weight-bold">{{ page.title }}</h1>
-        <hr class="divider my-4">
-      </div>
-    </div>
-  </div>
-</header>
-
-<!-- Any Ready-to-Use sections -->
-{% for section in page.sections %}
-    {% include {{ section.type }} section=section site=site page=page %}
-{% endfor %}
-
-<!-- include content as section -->
-{% assign content = content | strip_newlines %}
-{% if content != "" %}
-<section class="page-section {{ page.background_style }}">
-  <div class="container">
-    {{ content }}
-  </div>
-</section>
+{% if page.white_menu %}
+ {% if page.header_style == 'two' %}
+   {% include header.html extra_class="transparent  nav-uppercase" logo_class="logo" container_class="container"%}
+  {% else %}
+  {% include header.html extra_class="absolute transparent inverse-text nav-uppercase" light_logo="true"  container_class="container"%}
+ {% endif %}
+ {% if page.header_style == 'one' %}
+ {% include header.html extra_class="absolute transparent inverse-text nav-uppercase" light_logo="true"  container_class="container"%}
+ {% endif %}
+{% elsif page.black_menu %}
+  {% if page.header_style == 'one' %}
+    {% include header.html extra_class="transparent navbar-hover-opacity nav-uppercase" logo_class="logo" container_class="container" %}
+  {% elsif page.header_style == 'two' %}
+    {% include header.html extra_class="absolute transparent" logo_class="logo" container_class="container" %}
+  {% elsif page.header_style == 'three' %}
+    {% include header.html extra_class="transparent" logo_class="logo" container_class="container" alignment_class="ml-auto" %}
+  {% else %}
+    {% include header.html extra_class="transparent" logo_class="logo" container_class="container" %}
 {% endif %}
+{% endif %}
+
+{% include pages/page_header.html %}
+
+{{content}}
+
+{% include footer_2.html light_logo="true" %}
