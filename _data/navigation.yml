@@ -348,8 +348,11 @@ main_menu:
       - text: "Microsoft 365"
         url: "https://office.com"
 
-      - text: "Online School"
-        url: "https://office.com"
+      - text: "eLearning"
+        url: "https://lms.codebricks.co.nz"
+      
+      - text: "Hackers Lab"
+        url: "https://hackerslab.xyz"        
 
   # - text: "Microsoft 365"
   #   url: "https://office.com"
