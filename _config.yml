@@ -1,5 +1,5 @@
-baseurl: "/blogs" # the subpath of your site, e.g. /blog
-url: "https://codebricks-lab.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://codebricks.co.nz/" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: "/:title"
 
 # Build settings
@@ -8,6 +8,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-archives
+  # - jekyll-include-cache
 
 collections:
   authors:
