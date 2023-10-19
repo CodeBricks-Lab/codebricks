@@ -342,7 +342,7 @@ main_menu:
     #     url: "/blogs/index-8"
 
   - text: "Links"
-    # url: "/blogs/index"
+    url: "/"
     menu_type: "dropdown"
     submenu:
       - text: "Microsoft 365"
