@@ -152,7 +152,7 @@ layout: default
               {% endif %}
               {% if post.categories %}
               <div class="category">
-                <a href="{{post.categories[0] | slugify}}" class="badge badge-pill bg-purple">{{post.categories[0]}}</a>
+                <a href="/category/{{post.categories[0] | slugify}}" class="badge badge-pill bg-purple">{{post.categories[0]}}</a>
               </div>
               {% endif %}
               <h2 class="post-title"><a href="{{post.url}}">{{post.title}}</a></h2>
