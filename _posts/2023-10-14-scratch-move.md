@@ -2,7 +2,7 @@
 layout: post
 title: "Understanding Movement Blocks"
 date: 2023-10-14 08:00:00 +0600
-tags: scratch-overview move
+tags: scratch-overview motion
 categories: [scratch]
 author: "Code Bricks"
 post_image: "/assets/images/blog/scratch-move.jpg"
