@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Basics of Python 03: Defining a Function"
-date: 2023-10-26 08:00:00 +0600
+date: 2023-10-27 08:00:00 +0600
 tags: python-tutorial beginner-guide python-basics
 categories: [python]
 author: "Code Bricks"
