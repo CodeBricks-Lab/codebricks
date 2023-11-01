@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Basics of Python"
+title: "Basics of Python 01"
 date: 2023-10-25 08:00:00 +0600
-tags: python-tutorial beginner-guide 
+tags: python-tutorial beginner-guide python-basics
 categories: [python]
 author: "Code Bricks"
 post_image: "/assets/images/blog/python-basic-01.jpg"
