@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Basics of Python 01"
+title: "Basics of Python 01: Python Syntax"
 date: 2023-10-25 08:00:00 +0600
 tags: python-tutorial beginner-guide python-basics
 categories: [python]

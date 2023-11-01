@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Basics of Python 02"
+title: "Basics of Python 02: Control Structures"
 date: 2023-10-26 08:00:00 +0600
 tags: python-tutorial beginner-guide python-basics
 categories: [python]
