@@ -342,8 +342,8 @@ main_menu:
     #     url: "/blogs/index-8"
 
   - text: "Links"
-    url: "/"
-    menu_type: "dropdown"
+    # url: "/"
+    menu_type: "dropdown_only"
     submenu:
       - text: "Microsoft 365"
         url: "https://office.com"
