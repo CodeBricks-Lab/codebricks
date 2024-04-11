@@ -12,7 +12,7 @@ light_logo_2x: "/assets/images/logo-light@2x.png"
 
 address_01: 'Browns Bay Center <br> Auckland, New Zealand '
 phone_number: "+64 21 054 5399"
-copyright_text: "© 2023 Code Bricks. All rights reserved."
+copyright_text: "© 2024 Code Bricks. All rights reserved."
 
 google_analytics:
   enable: true

@@ -8,6 +8,11 @@ plugins:
   - jekyll-feed
   - jekyll-paginate-v2
   - jekyll-archives
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  # - jekyll-redirect-from
+  # - jekyll-compress-html
+  # - jekyll-alt-text
   # - jekyll-include-cache
 
 collections:
