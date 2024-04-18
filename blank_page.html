@@ -623,7 +623,7 @@ subscribe_area:
         <div class="space30"></div>
         <div class="row">
           <div class="col-md-6 offset-md-3">
-            <form class="fields-white" action="https://formsubmit.io/send/{{page.subscribe_area.action_email}}" target="_blank">
+            <form name="contact" class="fields-white" target="_blank" netlify>
               <div class="input-group">
                 <input type="email"  name="user_email" class="email form-control mb-0 mr-2 mb-sm-0" placeholder="Email Address" required>
                 <button type="submit" class="btn btn-rounded btn-default mr-0 mb-0 pull-right">{{page.subscribe_area.button_text}}</button>

@@ -338,7 +338,7 @@ contact_area:
         <p class="lead larger">{{page.contact_area.sub_title}}</p>
         {% endif %}
         <div class="space30"></div>
-            <form id="contact-form" class="fields-white" action="https://formsubmit.io/send/{{page.contact_area.action_email}}">
+            <form name="contact" id="contact-form" class="fields-white" netlify>
               <div class="messages"></div>
               <div class="controls">
                 <div class="form-row">
