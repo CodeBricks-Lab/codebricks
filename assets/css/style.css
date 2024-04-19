@@ -7130,12 +7130,20 @@ footer.inverse-text address {
 }
 /* Add margin to the bottom of the reCAPTCHA container */
 .recaptcha-container {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     /* adjust the size of the gap as needed */
+    border-radius: 10px;
+    /* Adjust the radius to your preference */
+    overflow: hidden;
+    /* This ensures that the inner contents (i.e., the reCAPTCHA iframe) conform to the rounded corners */
+    padding: 5px;
+    /* Optional, adds some spacing inside the container */
+    background-color: transparent;
+    /* Optional, adds a background color */
 }
 
 /* Or add margin to the top of the submit button */
 .submit-button {
-    margin-top: 20px;
+    padding-top: 20px;
     /* adjust the size of the gap as needed */
 }
