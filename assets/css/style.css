@@ -7128,3 +7128,14 @@ footer.inverse-text address {
 .overflow-hidden {
     overflow: hidden;
 }
+/* Add margin to the bottom of the reCAPTCHA container */
+.recaptcha-container {
+    margin-bottom: 20px;
+    /* adjust the size of the gap as needed */
+}
+
+/* Or add margin to the top of the submit button */
+.submit-button {
+    margin-top: 20px;
+    /* adjust the size of the gap as needed */
+}
