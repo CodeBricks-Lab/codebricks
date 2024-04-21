@@ -4,12 +4,40 @@ title: Coding for Kids | CodeBricks Auckland
 custom_css: purple
 custom_font: font2
 
-hero_area:
+slider_area:
   enable: true
-  bg_image: "/assets/images/art/study2.jpg"
-  title: "Creative AI Coding for Kids in Auckland: Building Logical Thinking and STEM Skills"
-  btn_text: "Get Started"
-  btn_url: "#whatwedo"
+  sliders:
+    - title: "Creative AI Coding for Kids in Auckland"
+      sub_title: "Enhancing Logical Thinking and Advancing STEM Skills through Interactive Learning"
+      image: "/assets/images/art/study2.jpg"
+      button_one_text: "Get Started"
+      button_one_url: "#whatwedo"
+
+    - title: "Fun Coding with Minecraft Education"
+      sub_title: "Minecraft Education for STEM and Project-Based Learning to Boost Creativity, Collaboration, and Motivation"
+      image: "/assets/images/art/codebricks_minecraft_education4.jpg"
+      button_one_text: "Learn More"
+      button_one_url: "/whatwedo-1"
+
+    - title: "The Ultimate Robotics Kit for STEM"
+      sub_title: "Explore Coding and Engineering with LEGO SPIKE Prime Through Interactive, Hands-on Learning"
+      image: "/assets/images/art/codebricks_lego2.jpg"
+      button_one_text: "Learn More"
+      button_one_url: "/whatwedo-1"
+    
+    - title: "Python Programming: Novice to Expert"
+      sub_title: "Dive into the World of Python Programming to Develop Skills, Solve Problems, and Build Innovative Solutions"
+      image: "/assets/images/art/codebricks_python2.jpg"
+      button_one_text: "Learn More"
+      button_one_url: "/whatwedo-2"
+
+    - title: "AI and Machine Learning Unveiled"
+      sub_title: "Advancing the Future with Pioneering Technology and Deep Data Science Insights"
+      image: "/assets/images/art/codebricks_books2.jpg"
+      button_one_text: "Learn More"
+      button_one_url: "/whatwedo-3"
+
+
 three_columns_area:
   enable: true
   title: "What We Do?"
@@ -238,6 +266,98 @@ contact_area:
 
 ---
 {% include header.html container_class="container" extra_class="absolute transparent inverse-text nav-uppercase" light_logo="true" %}
+{% if page.slider_area.enable %}
+<div class="wrapper dark-wrapper">
+  <div class="rev_slider_wrapper fullwidth-container">
+    <div id="slider2" class="rev_slider fullwidthbanner" data-version="5.4.7">
+      <ul>
+        {% for slider in page.slider_area.sliders %}
+        <li data-transition="fade" data-thumb="">
+          {% if slider.image %}
+           <img src="{{slider.image}}" alt="{{slider.title}}"/>
+          {% endif %}
+          {% if slider.title %}
+          <div class="tp-caption font-weight-500 color-white text-center" 
+             data-x="center" 
+             data-y="middle" 
+             data-voffset="['-75','-75','-65','-95']" 
+             data-fontsize="['50','50','35','30']" 
+             data-lineheight="['65','65','50','45']" 
+             data-width="['1000','1000','600','340']" 
+             data-textAlign="['center','center','center','center']" 
+             data-whitespace="['normal','normal','normal','normal']" 
+             data-frames='[{"delay":1000,"speed":1200,"frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' 
+             data-responsive="on" 
+             data-responsive_offset="on" style="z-index: 9;"> {{slider.title}}
+        </div>
+         <!-- /.tp-caption -->
+         {% endif %}
+         {% if slider.sub_title %}
+          <div class="tp-caption font-weight-400 color-white text-center" 
+             data-x="center" 
+             data-y="middle" 
+             data-voffset="['0','0','0','0']" 
+             data-fontsize="['26','26','26','20']" 
+             data-lineheight="['36','36','36','30']" 
+             data-width="['1000','1000','600','340']" 
+             data-textAlign="['center','center','center','center']" 
+             data-whitespace="['normal','normal','normal','normal']" 
+             data-frames='[{"delay":1500,"speed":1200,"frame":"0","from":"x:-50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]' 
+             data-responsive="on" 
+             data-responsive_offset="on" style="z-index: 9;"> {{slider.sub_title}}
+        </div>
+        {% endif %}
+        {% if slider.button_two_text %}
+         <!-- /.tp-caption -->
+          <a class="tp-caption btn btn-sky btn-strong-hover scroll" 
+             data-x="center" 
+             data-y="middle" 
+             data-hoffset="['-80','-80','-80','-80']" 
+             data-voffset="['85','85','85','90']" 
+             data-width="['auto','auto','auto','auto']" 
+             data-textAlign="['center','center','center','center']" 
+             data-frames='[{"delay":2500,"speed":1000,"frame":"0","from":"x:-100px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"y:[175%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]' 
+             data-responsive="on" 
+             data-responsive_offset="on" style="z-index: 9;" href="{{slider.button_one_url}}"> {{slider.button_one_text}}
+        </a>
+         <!-- /.tp-caption -->
+          <a class="tp-caption btn btn-teal btn-strong-hover scroll" 
+             data-x="center" 
+             data-y="middle" 
+             data-hoffset="['80','80','80','80']" 
+             data-voffset="['85','85','85','90']" 
+             data-width="['auto','auto','auto','auto']" 
+             data-textAlign="['center','center','center','center']" 
+             data-frames='[{"delay":2500,"speed":1000,"frame":"0","from":"x:100px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":500,"frame":"999","to":"y:[175%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]' 
+             data-responsive="on" 
+             data-responsive_offset="on" style="z-index: 9;" href="{{slider.button_two_url}}" target="_blank"> {{slider.button_two_text}}
+        </a>
+        <!-- /.tp-caption -->
+        {% else if slider.button_one_text %}
+          <!-- /.tp-caption -->
+          <a class="tp-caption btn btn-rose btn-strong-hover scroll" 
+             data-x="center" 
+             data-y="middle" 
+             data-voffset="['85','85','100','90']" 
+             data-width="['auto','auto','auto','auto']" 
+             data-textAlign="['center','center','center','center']" 
+             data-frames='[{"delay":2000,"speed":1200,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]' data-responsive="on" data-responsive_offset="on" style="z-index: 9;" href="{{slider.button_one_url}}"> {{slider.button_one_text}}
+        </a>
+        <!-- /.tp-caption -->
+        {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+      <div class="tp-bannertimer tp-bottom"></div>
+    </div>
+    <!-- /.rev_slider -->
+    <div class="divider"><svg xmlns="http://www.w3.org/2000/svg" class="fill-light-wrapper" preserveAspectRatio="none" viewBox="0 0 1070 20.98">
+        <path d="M0,0V21H1070V0A6830.24,6830.24,0,0,1,0,0Z" /></svg></div>
+  </div>
+  <!-- /.rev_slider_wrapper -->
+</div>
+<!-- /.wrapper -->
+{% endif %}
 {% if page.hero_area.enable %}
 <div class="wrapper dark-wrapper">
   <div class="rev_slider_wrapper fullwidth-container">
