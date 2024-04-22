@@ -12,30 +12,40 @@ slider_area:
       image: "/assets/images/art/study2.jpg"
       button_one_text: "Get Started"
       button_one_url: "#whatwedo"
+      button_two_text: "Contact Us"
+      button_two_url: "#contact"
 
     - title: "Fun Coding with Minecraft Education"
       sub_title: "Minecraft Education for STEM and Project-Based Learning to Boost Creativity, Collaboration, and Motivation"
       image: "/assets/images/art/codebricks_minecraft_education4.jpg"
       button_one_text: "Learn More"
       button_one_url: "/whatwedo-1"
+      button_two_text: "Contact Us"
+      button_two_url: "#contact"
 
     - title: "The Ultimate Robotics Kit for STEM"
       sub_title: "Explore Coding and Engineering with LEGO SPIKE Prime Through Interactive, Hands-on Learning"
       image: "/assets/images/art/codebricks_lego2.jpg"
       button_one_text: "Learn More"
       button_one_url: "/whatwedo-1"
+      button_two_text: "Contact Us"
+      button_two_url: "#contact"
     
     - title: "Python Programming: Novice to Expert"
       sub_title: "Dive into the World of Python Programming to Develop Skills, Solve Problems, and Build Innovative Solutions"
       image: "/assets/images/art/codebricks_python2.jpg"
       button_one_text: "Learn More"
       button_one_url: "/whatwedo-2"
+      button_two_text: "Contact Us"
+      button_two_url: "#contact"
 
     - title: "AI and Machine Learning Unveiled"
       sub_title: "Advancing the Future with Pioneering Technology and Deep Data Science Insights"
       image: "/assets/images/art/codebricks_books2.jpg"
       button_one_text: "Learn More"
       button_one_url: "/whatwedo-3"
+      button_two_text: "Contact Us"
+      button_two_url: "#contact"
 
 
 three_columns_area:
@@ -234,9 +244,8 @@ contact_area:
   title: "Get in Touch"
   sub_title: "Have any questions? Reach out to us from our contact form and we will get back to you shortly."
   action_email: "info@codebricks.co.nz"
-  image: "/assets/images/art/reception.jpeg"
-  address: |
-    <strong>Browns Bay Center<br /> Botany Center(preparation) <br /></strong>
+  map_frame: |
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.6110460898744!2d174.74095837678925!3d-36.70788347227374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x49e2a355fa131d21%3A0x36b3bfea66f2cc9e!2sCode%20Bricks!5e0!3m2!1sen!2snz!4v1713761795326!5m2!1sen!2snz" style="width:100%; height: 450px; border:0" allowfullscreen=""></iframe>
   forms_data: 
 
     - field_type: "input"
@@ -658,92 +667,84 @@ contact_area:
     </div>
     {% endif %}
     {% if page.contact_area.enable %}
-    <div id="contact-area" class="contact-area"> 
-    <div class="wrapper gray-wrapper">
-      <div class="container inner">
-        <div class="row">
-          <div class="col-md-7 mx-auto">
-            <h2 class="title-color color-gray text-center">{{page.contact_area.title}}</h2>
-            <h3 class="display-3 text-center">{{page.contact_area.sub_title}}</h3>
-            <div class="space40"></div>
-          </div>
-        </div>
-        <div class="row align-items-center">
-          <div class="col-lg-6">
-            <div>
-              {% if page.contact_area.image %}
-              <div class="img-blob blob3">
-                <img src="{{page.contact_area.image}}" style="width: 30rem" alt="{{page.contact_area.title}}"/>
-              </div>
-              {% endif %}
-              <div class="row counter counter-s position-absolute" style="top: 60%; left: 15%;">
-                <div class="col-md-10 text-center">
-                  <div class="full-circle bg-default color-white">
-                    <div class="full-circle-inner">
-                    <address class="mb-0">
-                      {{page.contact_area.address}}
-                    </address>
+    <section id="contact">
+        <div class="wrapper white-wrapper">
+            <div class="container">
+                <div class="space140"></div>
+                <div class="row">
+                    <div class="col-md-9">
+                        {% if page.contact_area.title %}
+                        <h2 class="title-color color-gray">{{page.contact_area.title}}</h2>
+                        {% endif %} {% if page.contact_area.sub_title %}
+                        <h3 class="display-3">{{page.contact_area.sub_title}}</h3>
+                        {% endif %}
                     </div>
-                    <!--/.full-circle-inner -->
-                  </div>
-                  <!--/.full-circle -->
                 </div>
-                <!--/column -->
-              </div>
-              <!--/.row -->
-            </div>
-          </div>
-          <!--/column -->
-          <div class="space50 d-lg-none"></div>
-          <div class="col-lg-6 pl-40 pl-md-15">
-            <form name="contact_home" id="contact-form" data-netlify-recaptcha="true" data-netlify="true">
-              <div class="messages"></div>
-              <div class="controls">
-                <div class="form-row">
-                  {% for forms_data in page.contact_area.forms_data %}
-                  {% if forms_data.field_type == "input" %}
-                    <div class="col-md-6">
-                      <div class="form-group">
-                        <input id="{{forms_data.field_name}}" type="text" name="{{forms_data.field_name}}" class="form-control" placeholder="{{forms_data.placeholder}} *" required="required" data-error="{{forms_data.error_message}}">
-                        <div class="help-block with-errors"></div>
-                      </div>
+                <div class="space40"></div>
+                <div class="row align-items-center">
+                    {% if page.contact_area.map_frame %}
+                    <div class="col-lg-6">
+                        <div class="google-map rounded">
+                            {{page.contact_area.map_frame}}
+                        </div>
+                        <!--/.google-map -->
                     </div>
-                   {% else if forms_data.field_type == "textarea" %}
-                    <div class="col-md-12">
-                      <div class="form-group">
-                        <textarea id="{{forms_data.field_name}}" name="{{forms_data.field_name}}" class="form-control" placeholder="{{forms_data.placeholder}} *" rows="4" required="required" data-error="{{forms_data.error_message}}"></textarea>
-                        <div class="help-block with-errors"></div>
-                      </div>
-                    </div>
-                     {% endif %}
-                  {% endfor %}
-                </div>
+                    <!--/column -->
+                    {% endif %}
+                    <div class="space20 d-md-none"></div>
+                    <div class="space50 d-none d-md-block d-lg-none"></div>
+                    <div class="col-lg-6 pl-50 pl-md-15">
+                        <form name="contact_home" id="contact-form" data-netlify-recaptcha="true" data-netlify="true">
+                          <div class="messages"></div>
+                          <div class="controls">
+                            <div class="form-row">
+                              {% for forms_data in page.contact_area.forms_data %}
+                              {% if forms_data.field_type == "input" %}
+                                <div class="col-md-6">
+                                  <div class="form-group">
+                                    <input id="{{forms_data.field_name}}" type="text" name="{{forms_data.field_name}}" class="form-control" placeholder="{{forms_data.placeholder}} *" required="required" data-error="{{forms_data.error_message}}">
+                                    <div class="help-block with-errors"></div>
+                                  </div>
+                                </div>
+                              {% else if forms_data.field_type == "textarea" %}
+                                <div class="col-md-12">
+                                  <div class="form-group">
+                                    <textarea id="{{forms_data.field_name}}" name="{{forms_data.field_name}}" class="form-control" placeholder="{{forms_data.placeholder}} *" rows="4" required="required" data-error="{{forms_data.error_message}}"></textarea>
+                                    <div class="help-block with-errors"></div>
+                                  </div>
+                                </div>
+                                {% endif %}
+                              {% endfor %}
+                            </div>
 
-                <div class="form-row">
-                  <div class="col-md-12">
-                    <p class="text-muted mb-0"><strong>You must click the check box below.</strong></p>
-                  </div>
+                            <div class="form-row">
+                              <div class="col-md-12">
+                                <p class="text-muted mb-0"><strong>You must click the check box below.</strong></p>
+                              </div>
+                            </div>
+                            <div data-netlify-recaptcha="true"></div>
+                            <div class="form-row">
+                              <div class="col-md-12">
+                                  <input type="submit" class="btn btn-send" value="Send message">
+                              </div>
+                            </div>
+                            <div class="form-row">
+                              <div class="col-md-12">
+                                <p class="text-muted mb-0"><strong>*</strong> These fields are required.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </form>
+                    </div>
+                    <!--/column -->
                 </div>
-                <div data-netlify-recaptcha="true"></div>
-                <div class="form-row">
-                  <div class="col-md-12">
-                      <input type="submit" class="btn btn-send" value="Send message">
-                  </div>
-                </div>
-                <div class="form-row">
-                  <div class="col-md-12">
-                    <p class="text-muted mb-0"><strong>*</strong> These fields are required.</p>
-                  </div>
-                </div>
-              </div>
-            </form>
-            <!-- /form -->
-          </div>
-          <!--/column -->
+                <!--/.row -->
+            </div>
+            <!-- /.container -->
         </div>
-      </div>
-    </div>
-    </div>
+        <div class="space50"></div>
+    </section>
+    
     {% endif %}
 </div>
 {% include footer_3.html light_logo="true" %}
