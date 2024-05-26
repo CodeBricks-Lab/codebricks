@@ -15,6 +15,8 @@ trending: true
 
 Welcome to the next part of our tutorial series on building a bank system using Python! In this post, we'll learn how to use SQLite to save user and account information, making our bank system more robust and persistent. Let's get started!
 
+Review the previous tutorial [Bank System](python-oop-example-01)
+
 ## Table of Contents
 
 1. Introduction
