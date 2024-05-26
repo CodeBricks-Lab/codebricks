@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "[Python OOP Examples] 2. Bank System with SQLite "
-date: 2024-05-02 08:00:00 +0600
-tags: python-tutorial object-oriented-programming examples database
+title: "[Python Examples] 1. Creating a Multiplication Table"
+date: 2024-05-03 08:00:00 +0600
+tags: python-tutorial examples
 categories: [python]
 author: "Code Bricks"
 badge_color: "bg-meander"
