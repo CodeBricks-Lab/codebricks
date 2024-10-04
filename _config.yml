@@ -105,22 +105,3 @@ feed:
       path: "/index.xml"
 
 
-# Jekyll Configuration
-
-# 기본 하이라이터를 Rouge로 설정
-highlighter: rouge
-
-# Rouge의 라인 넘버 표시 여부
-rouge:
-  line_numbers: true  # true로 설정하면 코드 하이라이트에 라인 넘버가 표시됩니다.
-
-# Markdown 파일에서 사용되는 마크다운 렌더링 엔진 설정
-markdown: kramdown
-
-# Kramdown에서의 하이라이트 설정
-kramdown:
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    default_lang: python  # 기본 프로그래밍 언어 설정
-    span:
-      line_numbers: true  # 라인 넘버 표시 여부
